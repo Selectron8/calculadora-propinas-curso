@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propinas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora de propinas</h1>
+        <form action="php/calculadora.php" method="post">
+            <label for="fnombre">Nombre del cliente</label>
+            <input type="text" name="fnombre"/>
+            <label for="fimporte">Importe de la cuenta (€)</label>
+            <input type="number" step="0.01" name="fimporte"/>
+            <label for="fpropina">Porcentaje de propina (%)</label>
+            <input type="number" name="fpropina" min="1"/>
+            <input type="submit" value="Calcular"/>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.contenedor{
+    width: 90vw;
+    max-width: 500px;
+    padding: 5px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, aliceblue 60%, yellow 100%);
+    display: grid;
+    place-content: center;
+    box-shadow: 13px 13px 13px black;
+}   
+
+h1{
+    text-align: center;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    margin: 20px 5px;
+    color: white;
+    background-color: blue;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.resultado {
+    width: 100%;
+    min-width: 400px;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.resultado p{
+    display: block;
+    padding: 0 20px;
+}
+
+.mensaje {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    margin: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.var{
+    font-weight: bold;
+    color: blue;
+}
