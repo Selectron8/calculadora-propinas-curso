@@ -17,13 +17,13 @@ La aplicación permite calcular el importe de la propina y el total a pagar a pa
    - Se realiza una comprobación de los datos introducidos en el formulario antes de procesar la información.
    - En caso de detectar errores (campos vacíos, valores inválidos o datos no permitidos), la interfaz gestiona y muestra los mensajes de error correspondientes para indicar qué campo requiere corrección.
 
-## Estructura del proyecto
+## 📁 Estructura del proyecto
 
-calculadora-propinas-curso/
-├── css/
-├── php/
-├── index.html
-└── README.md
+```text
+festival_musical_curso/
+├── css/            # Hojas de estilo CSS
+├── php/             # Archivos de scripts en PHP
+└── index.html      # Documento HTML principal
 ---
 
 ## 🚀 Cómo ejecutar el proyecto en `localhost`
