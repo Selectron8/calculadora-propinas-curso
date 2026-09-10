@@ -22,7 +22,7 @@ La aplicación permite calcular el importe de la propina y el total a pagar a pa
 ```text
 festival_musical_curso/
 ├── css/            # Hojas de estilo CSS
-├── php/             # Archivos de scripts en PHP
+├── php/            # Archivos de scripts en PHP
 └── index.html      # Documento HTML principal
 ---
 
